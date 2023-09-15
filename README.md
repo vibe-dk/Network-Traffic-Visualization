@@ -19,6 +19,7 @@ This Python project empowers the perception of organization traffic information 
 # Prerequisites
 
 - Python 3.x
+- WireShark 
 - Required libraries
     >dpkt
     >pygeoip 
@@ -30,7 +31,8 @@ This Python project empowers the perception of organization traffic information 
 - pip install dpkt pygeoip requests
 
 # Usage
-- Ensure you have a pcap file (e.g., 'packets.pcap') containing network traffic data.
+- Ensure you have a pcap file (e.g., 'packets.pcap') containing network traffic data from wireshark tool.
+- Every file must be in same folder.
 - Run the script, and it will generate a KML file ('sample.kml') with network traffic visualizations.
 - Go to my maps - https://www.google.com/mymaps
 - Import your .kml into it 
