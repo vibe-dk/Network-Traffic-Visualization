@@ -34,7 +34,7 @@ This Python project empowers the perception of organization traffic information 
 - Run the script, and it will generate a KML file ('sample.kml') with network traffic visualizations.
 
 # Run
-- python main.py
+- python packet-tracer.py
 
 # Customization
 You can customize geolocation data sources by modifying the script to use different databases.
