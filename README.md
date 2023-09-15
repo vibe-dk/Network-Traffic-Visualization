@@ -32,6 +32,8 @@ This Python project empowers the perception of organization traffic information 
 # Usage
 - Ensure you have a pcap file (e.g., 'packets.pcap') containing network traffic data.
 - Run the script, and it will generate a KML file ('sample.kml') with network traffic visualizations.
+- Go to my maps - https://www.google.com/mymaps
+- Import your .kml into it 
 
 # Run
 - python packet-tracer.py
